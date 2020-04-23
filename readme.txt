@@ -3,7 +3,7 @@ Contributors: shenyanzhi
 Donate link: https://qq52o.me/sponsor.html
 Tags: baidu,textcensor,posts,文章检测,文本内容审核,文章内容审核
 Requires at least: 4.2
-Tested up to: 5.3.2
+Tested up to: 5.4
 Requires PHP: 5.6.0
 Stable tag: 1.0.0
 License: Apache 2.0
