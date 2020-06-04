@@ -24,10 +24,9 @@
 
 [Github](https://github.com/sy-records/wp-baidu-textcensor)、[WordPress Plugins](https://wordpress.org/plugins/baidu-textcensor/)
 
-## 其他插件推荐
+## 云存储插件推荐
 
-* [wordpress-qcloud-cos](https://github.com/sy-records/wordpress-qcloud-cos) 使用腾讯云对象存储服务 COS 作为附件存储空间
-* [push-message-to-wechat](https://github.com/sy-records/push-message-to-wechat) 基于 PushBear 服务提供 WordPress 内容更新微信订阅推送，需要微信认证订阅号/服务号
+欢迎使用沈唁的[云存储全家桶](https://plugins.qq52o.me)
 
 ## License
 
