@@ -3,7 +3,7 @@
 Plugin Name: TextCensor For Articles
 Plugin URI: https://github.com/sy-records/textcensor-for-articles
 Description: 基于百度文本审核技术来提供WordPress文章内容审核。
-Version: 1.0.0
+Version: 1.1.0
 Author: 沈唁
 Author URI: https://qq52o.me
 License: Apache 2.0
@@ -162,7 +162,7 @@ function luffy_tcfa_submit_check($appId, $apiKey, $secretKey)
 function luffy_tcfa_publish_post($post_ID)
 {
     $post = get_post($post_ID);
-    if ($post->post_type == "post") {
+    if ($post->post_type == "post" || $post->post_type == "page") {
         $option = get_option('TextCensorForArticles');
         if (!class_exists("\Luffy\TextCensor\AipBase")) {
             require_once dirname(__FILE__) . '/src/AipBase.php';
@@ -184,6 +184,7 @@ function luffy_tcfa_publish_post($post_ID)
     return $post_ID;
 }
 add_filter('publish_post', 'luffy_tcfa_publish_post');
+add_filter('publish_page', 'luffy_tcfa_publish_post');
 
 add_action('admin_notices', 'luffy_tcfa_status_notices');
 function luffy_tcfa_status_notices()
