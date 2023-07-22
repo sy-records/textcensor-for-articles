@@ -3,7 +3,7 @@
 Plugin Name: TextCensor For Articles
 Plugin URI: https://github.com/sy-records/textcensor-for-articles
 Description: 基于百度文本审核技术来提供WordPress文章内容审核。
-Version: 1.1.1
+Version: 1.1.2
 Author: 沈唁
 Author URI: https://qq52o.me
 License: Apache 2.0

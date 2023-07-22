@@ -3,9 +3,9 @@ Contributors: shenyanzhi
 Donate link: https://qq52o.me/sponsor.html
 Tags: baidu,textcensor,posts,文章检测,文本内容审核,文章内容审核
 Requires at least: 4.2
-Tested up to: 5.6
+Tested up to: 6.3
 Requires PHP: 5.6.0
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: Apache 2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 
@@ -47,8 +47,11 @@ License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 
 == Changelog ==
 
+= 1.1.2 =
+* 支持 WordPress 6.3
+
 = 1.1.1 =
-* 支持WordPress 5.6
+* 支持 WordPress 5.6
 
 = 1.1.0 =
 * 支持文章类型为页面时的审核
