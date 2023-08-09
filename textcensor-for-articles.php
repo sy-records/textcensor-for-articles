@@ -139,7 +139,7 @@ function luffy_tcfa_submit_options()
     echo '<p><strong>使用提示</strong>：<br>
 	1. AppID、API Key、Secret Key在百度 AI 控制台的 <a target="_blank" href="https://console.bce.baidu.com/ai/?fromai=1#/ai/antiporn/app/list">产品服务 / 内容审核 - 应用列表</a> 创建应用后获取；<br>
 	2. 百度有默认审核策略，如果误杀严重，请进入 <a target="_blank" href="https://ai.baidu.com/censoring#/strategylist">内容审核平台创建自定义规则</a> 进行修改策略；<br>
-	3. 如有问题请至 <a target="_blank" href="https://github.com/sy-records/textcensor-for-articles">Github</a> 查看使用说明或提交 <a target="_blank" href="https://github.com/sy-records/textcensor-for-articles/issues">Issue</a>。
+	3. 如有问题请至 <a target="_blank" href="https://github.com/sy-records/textcensor-for-articles">GitHub</a> 查看使用说明或提交 <a target="_blank" href="https://github.com/sy-records/textcensor-for-articles/issues">Issue</a>。
 	</p>';
     echo '</div>';
 }
